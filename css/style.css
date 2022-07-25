@@ -17,3 +17,7 @@
 .bg-orchid{
     background: orchid;
 }
+.btn-custom{
+    outline: none;
+    border: none;
+}
