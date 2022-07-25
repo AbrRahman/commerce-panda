@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ecommerce panda</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <!-- header start  -->
+    <!--header start-->
     <header>
-        <!-- navbar start-->
+        <!--navbar start-->
         <nav class="navbar navbar-expand-lg bg-light mb-5">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
@@ -33,8 +35,59 @@
                 </ul>
               </div>
             </div>
-          </nav>
-        <!-- navbar end -->
+        </nav>
+        <!--navbar end-->
+        <!--image slider start-->
+        <section>
+            <div class="container">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active bg-slide rounded">
+                    <div class="row align-items-center py-3 px-5">
+                      <div class="col-md-7">
+                        <h1>Cool Dude Headphone</h1>
+                        <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                        <h1 class="text-pink">$400</h1>
+                        <button class="btn text-white bg-pink ">Buy Now</button>
+                      </div>
+                      <div class="col-md-5"><img src="images/banner-images/headphone.png" class="d-block w-100" alt="..."></div>
+                    </div>
+                  </div>
+                  <div class="carousel-item bg-slide rounded">
+                    <div class="row align-items-center py-3 px-5">
+                      <div class="col-md-7">
+                        <h1>Mega LCD TV For Sports</h1>
+                        <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
+                        <h1 class="text-pink">$700</h1>
+                        <button class="btn bg-pink text-white">Buy Now</button>
+                      </div>
+                      <div class="col-md-5"><img src="images/banner-images/tv.png" class="d-block w-100" alt="..."></div>
+                    </div>
+                  </div>
+                  <div class="carousel-item bg-slide rounded">
+                    <div class="row align-items-center py-3 px-5">
+                      <div class="col-md-7">
+                        <h1>X-Box for your living room</h1>
+                        <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
+                        <h1 class="text-pink">$300</h1>
+                        <button class="btn text-white bg-pink">Buy Now</button>
+                      </div>
+                      <div class="col-md-5"><img src="images/banner-images/xbox.png" class="d-block w-100" alt="..."></div>
+                    </div>  
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+        </section>
+        <!--image slider end-->
     </header>
     <!--header end-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
